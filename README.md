@@ -20,13 +20,21 @@ Build linear regression, decision tree regression, SVM regression, and XGBoost l
 and then report the performance on the test data using the mean-squared performance criteria as described in the class.
 
 <b>Pre-processing</b> :
+
 Pre-processing forms a major part of the data prediction which is done over a number of stages :
+
 <b>Data Cleaning</b>  : We found our data had columns that had over 70% values as null, which makes it hard for us to do analysis and implement any Machine Learning Algorithms.
+
 <b>Data Imputation</b> : After removing, the columns with majority of null values, we encounter that some columns still have missing values and for these cases we use mean and median to miss the filling data.
+
 <b>Data Standardization</b> : We were lucky, because the data was already standardized in this case.
+
 <b>Manipulating Categorical Variables</b> : We use 1:C coding or one hot encoding, to remove the  categorization and make every instance of each category a separate column for the Machine Learning Algorithm to do a better job.
+
 <b>Picking a ML Algorithm</b> : We used 4 algorithms to predict the same thing, Linear Regression, Decision Tree, SVM and XGBoost.
 Finding the algorithm that fits the data best.
+
+
 
 <b>Linear Regression</b>:
 Reducing Dimension
@@ -61,10 +69,14 @@ We also use xgb.cv to cross validate our findings and use RMSE and MAE as the ev
 
 <b>Conclusion</b> :
 
-<b>Type of Regression</b>    <b>RMSE Value</b>
+Type of Regression    RMSE Value
+
 Linear Regression     1.985102
+
 SVM                   1.926136
+
 Decision Tree         2.146986
+
 XGBoost               1.712073
 
 As we look at the RMSE values for all the models we can see that 
