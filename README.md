@@ -37,7 +37,7 @@ Can be done by eigenvalue decomposition of a data covariance (or correlation) ma
 Use an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.
 An orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, etc.
 
-SVM Regression:
+#SVM Regression:
 Steps involved in SVM Regression are:
 The data obtained after preprocessing was fed into RStudio.
 Using Random Forest, the insignificant columns were eliminated.
